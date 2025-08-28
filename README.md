@@ -3,13 +3,13 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=180&section=header&text=Issa%20Hassan%20Youssouf&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 </div>
 
-<h3 align="center">🎓 Étudiant en Réseaux et Sécurité | 🔐 Passionné de Cybersécurité</h3>
+<h3 align="center">🎓 Étudiant en Réseau et Sécurité | 🔐 Passionné de Cybersécurité</h3>
 <h4 align="center">🚀 Futur Cyber-Ingénieur | 🌍 Apprentissage continu</h4>
 
 ---
 
 ## 🌟 À propos de moi  
-- 🎓 Étudiant en **Réseaux et Sécurité**    
+- 🎓 Étudiant en **Réseau et Sécurité**    
 - 🛡️ Objectif : contribuer à un monde numérique plus sûr
 - 🌍 Langues : **Français, Arabe et Anglais (Basique)**
 - 📚 En cours d'apprentissage
