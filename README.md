@@ -67,14 +67,6 @@
 
 ---
 
-## 📊 Statistiques GitHub  
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IssaYoussouf&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180em"/>
-  <img src="https://streak-stats.demolab.com?user=IssaYoussouf&theme=tokyonight&hide_border=true" height="180em"/>
-</div>
-
----
 ## 🌐 Me retrouver  
 <div align="center">
   <a href="https://linkedin.com/in/issahassanyoussouf"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
