@@ -44,7 +44,7 @@
 > - CSS 
 > - JavaScript
 
-🔹 **Stage Académique (Startech Academy en cours)**  
+🔹 **Stage Académique (Startech Academy)**  
 > - Configuration VLAN, OSPF, RIP, DHCP, VTP  
 > - Redistribution de routes et tests de connectivité  
 > - Simulation Packet Tracer complète
