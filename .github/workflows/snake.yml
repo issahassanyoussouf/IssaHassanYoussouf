@@ -1,15 +1,15 @@
 name: Generate Snake
 
 on:
-  schedule:               # exécute tous les jours à minuit
-    - cron: "0 0 * * *"
-  workflow_dispatch:      # exécution manuelle possible
-  push:                   # exécute lors d’un push sur main
+  schedule:
+    - cron: "0 0 * * *"        # tous les jours à minuit
+  workflow_dispatch:           # exécution manuelle
+  push:                        # à chaque push sur main
     branches:
       - main
 
 permissions:
-  contents: write
+  contents: write              # <--- OBLIGATOIRE pour le déploiement
 
 jobs:
   generate:
