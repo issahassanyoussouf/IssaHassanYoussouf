@@ -4,23 +4,26 @@ on:
   schedule:
     - cron: "0 0 * * *"        # tous les jours à minuit
   workflow_dispatch:           # exécution manuelle
-  push:                        # à chaque push sur main
+  push:
     branches:
       - main
 
 permissions:
-  contents: write              # <--- OBLIGATOIRE pour le déploiement
+  contents: write              # obligatoire pour le déploiement
 
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Générer l'animation Snake
         uses: Platane/snk@v3
         with:
           github_user_name: issahassanyoussouf
-          outputs: |
+          output: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
