@@ -61,7 +61,7 @@
 
 ---
 
-## 📈 GitHub Activity – Snake Graph
+## 📈 GitHub Activity
 
 <div align="center">
   <img src="https://issahassanyoussouf.github.io/IssaHassanYoussouf/github-contribution-grid-snake.svg" alt="Animation Snake Graph" />
