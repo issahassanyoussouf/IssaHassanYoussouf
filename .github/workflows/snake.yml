@@ -1,0 +1,36 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@9e3a9f1df2e58f38c52fda4d144ca6f8f75496c1
+
+      - name: Générer l'animation Snake
+        uses: Platane/snk@8e5ed5d1531e167597f61e38ebf4e41696e3702d
+        with:
+          github_user_name: issahassanyoussouf
+          output: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Déployer sur GitHub Pages
+        uses: crazy-max/ghaction-github-pages@b6f4d2a2634b1ec24d92c3a032eaa932a0a77546
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
