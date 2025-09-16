@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@9e3a9f1df2e58f38c52fda4d144ca6f8f75496c1  # SHA pinné
 
       - name: Générer l'animation Snake
         uses: Platane/snk@8e5ed5d1531e167597f61e38ebf4e41696e3702d
