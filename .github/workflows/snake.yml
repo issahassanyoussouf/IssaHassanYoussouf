@@ -17,10 +17,11 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@9e3a9f1df2e58f38c52fda4d144ca6f8f75496c1  # SHA pinné
+        uses: actions/checkout@9e3a9f1df2e58f38c52fda4d144ca6f8f75496c1  # SHA pinné (v5.0.0)
 
       - name: Générer l'animation Snake
-        uses: Platane/snk@8e5ed5d1531e167597f61e38ebf4e41696e3702d
+        uses: Platane/snk@8e5ed5d1531e167597f61e38ebf4e41696e3702d       # SHA pinné
+
         with:
           github_user_name: issahassanyoussouf
           output: |
@@ -28,7 +29,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Déployer sur GitHub Pages
-        uses: crazy-max/ghaction-github-pages@b6f4d2a2634b1ec24d92c3a032eaa932a0a77546
+        uses: crazy-max/ghaction-github-pages@b6f4d2a2634b1ec24d92c3a032eaa932a0a77546  # SHA pinné
         with:
           target_branch: output
           build_dir: dist
