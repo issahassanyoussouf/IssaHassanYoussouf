@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=180&section=header&text=Issa%20Hassan%20Youssouf&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 </div>
 
-<h3 align="center">🎓 Étudiant en Réseau et Sécurité | Passionné par la Sécurité des Systèmes d’Information</h3>
+<h3 align="center"> CSEDP | Étudiant en Réseau et Sécurité | Passionné par la Sécurité des Systèmes d’Information</h3>
 <h4 align="center">🚀 Cyber-Ingénieur en devenir | 🌍 Apprentissage continu | 🤝 Ouvert aux collaborations</h4>
 
 ---
