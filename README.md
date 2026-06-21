@@ -10,7 +10,7 @@
 
 ## À propos de moi
 
-- 🎓 Étudiant en **Réseaux & Sécurité Informatique**  
+- 🎓 Étudiant en **Réseaux et Sécurité Informatique**  
 - 🛡️ Déterminé à renforcer la sécurité numérique  
 - 🌍 Langues : Français (natif), Arabe (courant), Anglais (technique)  
 - 📚 En autoformation permanente : labs, CTFs, outils offensifs/défensifs  
